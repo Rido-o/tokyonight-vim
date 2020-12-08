@@ -4,6 +4,10 @@
 
 for more screenshot, check [here](./pictures)
 
+### Preface
+
+Slightly altered version of this colorscheme https://github.com/ghifarit53/tokyonight-vim
+
 ### About
 
 Originally by [enkia](https://github.com/enkia/tokyo-night-vscode-theme)

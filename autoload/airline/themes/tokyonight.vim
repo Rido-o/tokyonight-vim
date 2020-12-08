@@ -40,7 +40,7 @@ let s:airline_mode_visual         = [ s:background[0], s:purple[0],          s:b
 let s:airline_mode_inactive       = [ s:foreground[0], s:background_grey[0], s:foreground[1], s:background_grey[1] ]
 
 let s:airline_info                = [ s:foreground[0], s:background_grey[0], s:foreground[1], s:background_grey[1] ]
-let s:airline_statusline          = [ s:foreground[0], s:background_alt[0],  s:foreground[1], s:background_alt[1]  ]
+let s:airline_statusline          = [ s:foreground[0], s:background[0],  s:foreground[1], s:background[1]  ]
 
 function! s:tokyonight_color_map(mode)
 	return airline#themes#generate_color_map(a:mode, s:airline_info, s:airline_statusline)

@@ -171,7 +171,7 @@ else
   call s:HL('EndOfBuffer', s:palette.bg0, s:palette.bg0)
   call s:HL('FoldColumn', s:palette.grey, s:palette.bg1)
   call s:HL('Folded', s:palette.grey, s:palette.bg1)
-  call s:HL('SignColumn', s:palette.fg, s:palette.bg1)
+  call s:HL('SignColumn', s:palette.fg, s:palette.bg0)
   call s:HL('ToolbarLine', s:palette.fg, s:palette.bg2)
 endif
 call s:HL('ColorColumn', s:palette.none, s:palette.bg1)
@@ -1628,10 +1628,10 @@ if s:configuration.transparent_background
   call s:HL('GitGutterDelete', s:palette.red, s:palette.none)
   call s:HL('GitGutterChangeDelete', s:palette.purple, s:palette.none)
 else
-  call s:HL('GitGutterAdd', s:palette.green, s:palette.bg1)
-  call s:HL('GitGutterChange', s:palette.blue, s:palette.bg1)
-  call s:HL('GitGutterDelete', s:palette.red, s:palette.bg1)
-  call s:HL('GitGutterChangeDelete', s:palette.purple, s:palette.bg1)
+  call s:HL('GitGutterAdd', s:palette.green, s:palette.bg0)
+  call s:HL('GitGutterChange', s:palette.blue, s:palette.bg0)
+  call s:HL('GitGutterDelete', s:palette.red, s:palette.bg0)
+  call s:HL('GitGutterChangeDelete', s:palette.purple, s:palette.bg0)
 endif
 " }}}
 " mhinz/vim-signify{{{
